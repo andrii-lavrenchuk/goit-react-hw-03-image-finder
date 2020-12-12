@@ -5,10 +5,15 @@ import { Component } from 'react';
 // import Filter from './Components/Filter/Filter';
 // import Title from './Components/Title/Title';
 // import Container from './Components/Container/Container';
+import Searchbar from './Components/Searchbar/Searchbar';
 
 class App extends Component {
   render() {
-    return <div>hhkh</div>;
+    return (
+      <div>
+        <Searchbar />
+      </div>
+    );
   }
 }
 
