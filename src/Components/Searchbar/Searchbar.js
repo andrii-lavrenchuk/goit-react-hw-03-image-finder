@@ -11,8 +11,8 @@ export default function Searchbar(params) {
         <input
           className={s.searchFormInput}
           type="text"
-          autocomplete="off"
-          autofocus
+          autoComplete="off"
+          autoFocus
           placeholder="Search images and photos"
         />
       </form>
